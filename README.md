@@ -1,11 +1,11 @@
 # React
 
-1) **Clone this Repo
+** 1) Clone this Repo
 
-2) **npm install
+** 2) npm install
 
-3) **npm start
+** 3) npm start
 
 
 # Build
-1) **npm run build
+** 1) npm run build
