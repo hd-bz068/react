@@ -22,7 +22,7 @@ module.exports = merge(common, {
     },
     devServer: {
         publicPath: "/",
-        contentBase: "./src/public",
+        contentBase: "./public",
         hot: true,
         port: 3000
     },

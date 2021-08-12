@@ -20,7 +20,7 @@ module.exports = {
                 test: /\.(png|jpe?g|gif|svg)$/i,
                 loader: 'file-loader',
                 options: {
-                    outputPath: 'images',
+                    outputPath: 'static/images',
                     name: '[name].[hash].[ext]',
                 },
             },
@@ -28,7 +28,7 @@ module.exports = {
     },
     plugins: [
         new HTMLWEBPACKPLUGIN({
-            template: './src/public/index.html'
+            template: './public/index.html'
         })
     ]
 }
